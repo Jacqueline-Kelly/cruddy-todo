@@ -10,7 +10,7 @@
     "npm": "6.14.8"
   },
   "scripts": {
-    "start": "npx nodemon ./server.js",
+    "start": "nodemon ./server.js",
     "clean": "rm -rf datastore/data/* datastore/counter.txt",
     "lint": "eslint ./",
     "test": "mocha test"
